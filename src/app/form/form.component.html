@@ -1,0 +1,44 @@
+<div class="container">
+    <form [formGroup]="myForm">
+      <div class="row">
+        <!-- Name -->
+        <div class="col-md-6 mb-3">
+          <label for="name">First Name<font color="red">*</font>:
+            <input  type ="text" id="name" [formControl]="myForm.controls.name" />   
+        </label>
+        </div>
+  
+        <!-- Last Name -->
+        <div class="col-md-6 mb-3">
+          <label for="lastName">Last Name<font color="red">*</font>:
+            <input type ="text" id="lastname" [formControl]="myForm.controls.lastname" /> 
+          </label>
+        </div>
+      </div>
+  
+      <!-- Email -->
+       <div class="textbox-container">
+      <div class="mb-3">
+        <label for="email">Email<font color="red">*</font>:
+            <input id="email" type="email" [formControl]="myForm.controls.email" />
+        </label>
+      </div>
+  
+      <!-- Phone Number -->
+      <div class="mb-3">
+        <label for="phoneNo">
+            PhoneNumber<font color="red">*</font>:
+            <input id="phone" type="tel" [formControl]="myForm.controls.phone" />
+        </label>
+      </div>
+  
+      <!-- Address -->
+      <div class="mb-3">
+        <label for="address">
+            Address<font color="red">*</font>:
+            <input id="address" type="text" [formControl]="myForm.controls.address"/>
+        </label>
+      </div>
+    </div>
+    </form>
+  </div>

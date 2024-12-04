@@ -1,0 +1,49 @@
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+
+div {
+margin-bottom: 15px;
+}
+
+label {
+display: block;
+font-weight: bold;
+margin-bottom: 5px;
+margin-right: 50px;
+}
+
+input,
+textarea {
+width: 100%;
+padding: 8px;
+margin: 5px 0;
+box-sizing: border-box;
+border: 1px solid #ccc;
+border-radius: 4px;
+
+}
+
+.textbox-container {
+
+display: inline;         
+margin-right: 10px; 
+gap: 10px;
+}
+
+
+.textbox-container input {
+
+width: 70%; 
+margin-right: 20px; 
+}
+
+.row {
+display: inline-flexbox;
+justify-content: space-between;
+}
